@@ -18,7 +18,7 @@
 | **Classe_euro**                  | CHAR(6)     | NOT NULL                    | Valori 1-6                            |
 | **Stato**                        | CHAR(5)     | NOT NULL                    | `nuova` o `usata`                     |
 | **Km_percorsi**                  | MEDIUMINT   | NULL                        | Chilometri percorsi                   |
-| **Motore**                       | CHAR(19)    | NULL                        | Elettrico / benzina / diesel / ibrido |
+| **Motore**                       | CHAR(10)    | NULL                        | Elettrico / benzina / diesel / ibrido |
 | **Cambio**                       | CHAR(10)    | NULL                        | manuale / automatico                  |
 | **Incidentata**                  | BOOLEAN     | NOT NULL                    | `si` o `no`                           |
 | **Neopatentati**                 | BOOLEAN     | NULL                        | `si` o `no`                           |
