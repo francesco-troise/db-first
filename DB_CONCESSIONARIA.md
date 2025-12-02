@@ -32,3 +32,4 @@
 - I campi `Incidentata` e `Neopatentati` sono booleani (`TRUE/FALSE`).
 - `Data_ingresso_concessionaria` assume automaticamente la data corrente se non specificata.
 - La combinazione `Casa_produttrice + Modello` potrebbe essere resa `UNIQUE`.
+- Il campo `Casa_produttrice` accetta fino ad 80 caratteri per eventuali case giapponesi(alcune hanno nomi lunghi)
